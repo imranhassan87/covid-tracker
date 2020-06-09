@@ -39,6 +39,6 @@ jobs:
       run: npm install -g surge
       
     - name: deploying with surge
-      run: surge ./build covid-tracker.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build covid-tracker-by-imran.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
         echo test, and deploy your project.

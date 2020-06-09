@@ -28,7 +28,9 @@ jobs:
       with:
         node-version: 12
     # Runs a set of commands using the runners shell
-    - run: borales/actions-yarn@v2.0.0
+    - uses: borales/actions-yarn@v2.0.0
+      with:
+        cmd: install
       
     - name: build
       run: yarn build

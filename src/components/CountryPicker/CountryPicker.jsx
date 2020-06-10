@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { NativeSelect, FormControl } from '@material-ui/core';
 import { countries } from '../../api';
 
 const CountryPicker = () => {
-	const [ cont, setCont ] = useState();
+	//const [ cont, setCont ] = useState();
 	useEffect(() => {
 		countries();
 	}, []);

@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import {fetchDailyData} from '../../api'
 import './Chart.css'
-import {Line,Bar} from 'react-chartjs-2'
+import {Line} from 'react-chartjs-2'
 
 const Chart = () => {
     const [dailyData,setDailyData] = useState([])

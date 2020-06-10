@@ -7,7 +7,6 @@ const Cards = ({ data: { data } }) => {
 	if (!data) {
 		return 'loading...';
 	}
-	console.log(data.confirmed);
 	return (
 		<div className="card-container">
 			<Grid container spacing={3} justify="center">

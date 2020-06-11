@@ -3,3 +3,10 @@
     justify-content: center;
     width: 70%;
 }
+
+
+@media(max-width:770px){
+    .chart-container{
+        width: 100%;
+    }
+}
